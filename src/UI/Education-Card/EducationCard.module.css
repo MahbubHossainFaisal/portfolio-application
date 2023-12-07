@@ -1,0 +1,88 @@
+education-card {
+    padding: 8px;
+
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.institute-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.education-logo {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    margin: 8px;
+    border-radius: 50%;
+}
+
+.education-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+.status {
+    font-size: 32px;
+    font-style: italic;
+}
+
+.institute-name {
+    font-size: 24px;
+}
+
+.year {
+    font-size: 20px;
+}
+
+.result {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 720px) {
+
+    .education-logo {
+        height: 100px;
+        width: 100px;
+    }
+
+    .education-info {
+        justify-content: center;
+        align-items: center;
+    }
+    .status {
+       display: flex;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 24px;
+       margin-left: 12%;
+    }
+
+    .institute-name {
+        
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 12%;
+        margin-bottom: 4px;
+    }
+
+    .year {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    .result {
+        font-size: 16px;
+    }
+}

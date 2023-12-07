@@ -1,0 +1,31 @@
+.web {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.web-option {
+    font-size: 24px;
+    margin-right: 16px;
+    font-weight: 800;
+    transition: 0.4s;
+}
+
+.web-option:hover{
+    transform: scale(1.1);
+}
+
+.web-option a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.web-option i {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}

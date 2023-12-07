@@ -1,0 +1,238 @@
+.about {
+    padding-bottom: 48px;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.about-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-photo {
+    margin-right: 5%;
+}
+
+.image {
+    height: 520px;
+    transition: 0.4s;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+.about-info {
+    font-size: 32px;
+    margin-left: 10%;
+}
+
+.info-name {
+    color: orangered;
+    font-size: 48px;
+
+}
+
+.info-subject {
+    display: inline-flex;
+    font-size: 32px;
+}
+
+/*Animation*/
+.info-subject .dynamic-info-subject {
+    overflow: hidden;
+}
+
+.dynamic-info-subject li {
+
+    list-style: none;
+    position: relative;
+    justify-content: center;
+    top: 0px;
+    animation: slide 12s steps(1) infinite;
+
+}
+
+@keyframes slide {
+    100% {
+        top: -150px;
+
+    }
+}
+
+
+
+.dynamic-info-subject li span {
+    display: inline-flex;
+    margin-left: 0;
+    position: relative;
+
+}
+
+.dynamic-info-subject li span::after {
+    display: inline-flex;
+    content: "";
+    position: absolute;
+    left: 0;
+    background: white;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-left: 3px solid orangered;
+    animation: typing 3s steps(30) infinite;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px
+    }
+}
+
+.info-card {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+    padding: 2%;
+
+}
+
+.info-card label {
+    margin: 8px;
+}
+
+.info-card span {
+
+    height: 200px;
+    width: 400px;
+    transition: .4s;
+}
+
+.info-card span:hover {
+    transform: scale(1.1);
+}
+
+.Ds-card {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 24px;
+    margin: 8px 12px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.Ds-card i {
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+
+
+
+.Ds-card p {
+    padding: 8px;
+    font-size: 14px;
+
+}
+
+
+.Wd-card {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 24px;
+    margin: 8px 12px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.Wd-card i {
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+
+
+.Wd-card p {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.Mc-card {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 24px;
+    margin: 8px 12px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.Mc-card i {
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+
+.Mc-card p {
+    padding: 8px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 720px) {
+    .about-top {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        height: 320px;
+    }
+
+    .about-info {
+        font-size: 24px;
+    }
+
+    .info-name {
+        font-size: 28px;
+    }
+
+    .info-subject {
+        font-size: 24px;
+    }
+
+    .info-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-card span {
+        height: 200px;
+        width: 300px;
+    }
+
+    .dynamic-info-subject li span {
+        font-size: 18px;
+        color: black;
+    }
+
+
+
+
+}
