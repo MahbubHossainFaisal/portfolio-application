@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/portfolio-application/static/css/main.9e1d900f.chunk.css",
+    "main.js": "/portfolio-application/static/js/main.b16e2bf9.chunk.js",
+    "main.js.map": "/portfolio-application/static/js/main.b16e2bf9.chunk.js.map",
+    "runtime-main.js": "/portfolio-application/static/js/runtime-main.73f27d7a.js",
+    "runtime-main.js.map": "/portfolio-application/static/js/runtime-main.73f27d7a.js.map",
+    "static/css/2.2189b2f8.chunk.css": "/portfolio-application/static/css/2.2189b2f8.chunk.css",
+    "static/js/2.432f023a.chunk.js": "/portfolio-application/static/js/2.432f023a.chunk.js",
+    "static/js/2.432f023a.chunk.js.map": "/portfolio-application/static/js/2.432f023a.chunk.js.map",
+    "index.html": "/portfolio-application/index.html",
+    "precache-manifest.213e6ff9014c1673ecad154729dbcdb0.js": "/portfolio-application/precache-manifest.213e6ff9014c1673ecad154729dbcdb0.js",
+    "service-worker.js": "/portfolio-application/service-worker.js",
+    "static/css/2.2189b2f8.chunk.css.map": "/portfolio-application/static/css/2.2189b2f8.chunk.css.map",
+    "static/css/main.9e1d900f.chunk.css.map": "/portfolio-application/static/css/main.9e1d900f.chunk.css.map",
+    "static/js/2.432f023a.chunk.js.LICENSE.txt": "/portfolio-application/static/js/2.432f023a.chunk.js.LICENSE.txt",
+    "static/media/AIUB.jpg": "/portfolio-application/static/media/AIUB.ac70cced.jpg",
+    "static/media/College.png": "/portfolio-application/static/media/College.b5c3bacf.png",
+    "static/media/Confusion.jpg": "/portfolio-application/static/media/Confusion.f1bf9cae.jpg",
+    "static/media/FoodOrder.jpg": "/portfolio-application/static/media/FoodOrder.c6a0ca40.jpg",
+    "static/media/GuessMyNumber.jpg": "/portfolio-application/static/media/GuessMyNumber.4f1d695a.jpg",
+    "static/media/IET.jpg": "/portfolio-application/static/media/IET.a1eac782.jpg",
+    "static/media/Iqvia.jpg": "/portfolio-application/static/media/Iqvia.71958aa7.jpg",
+    "static/media/Notes.png": "/portfolio-application/static/media/Notes.8c5d0868.png",
+    "static/media/P5JS.png": "/portfolio-application/static/media/P5JS.7d86c020.png",
+    "static/media/Programmer.gif": "/portfolio-application/static/media/Programmer.cec0fb91.gif",
+    "static/media/Weather.png": "/portfolio-application/static/media/Weather.6dfbe73e.png",
+    "static/media/bank.jpg": "/portfolio-application/static/media/bank.106d96a7.jpg",
+    "static/media/dsa.jpg": "/portfolio-application/static/media/dsa.1ab691bc.jpg",
+    "static/media/ecommerce.png": "/portfolio-application/static/media/ecommerce.3acf207a.png",
+    "static/media/expenseTracker.jpg": "/portfolio-application/static/media/expenseTracker.ca20b2e0.jpg",
+    "static/media/jail.jpg": "/portfolio-application/static/media/jail.aae9ae9c.jpg",
+    "static/media/tictactoe.png": "/portfolio-application/static/media/tictactoe.92a0f0e9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73f27d7a.js",
+    "static/css/2.2189b2f8.chunk.css",
+    "static/js/2.432f023a.chunk.js",
+    "static/css/main.9e1d900f.chunk.css",
+    "static/js/main.b16e2bf9.chunk.js"
+  ]
+}
