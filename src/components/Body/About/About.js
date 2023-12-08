@@ -35,14 +35,20 @@ const About = (props) => {
                 </span>
                 <span className={classes['Wd-card']}>
                     <i className="fas fa-globe fa-3x"></i>
-                    <h5>Data Science Enthusiast</h5>
-                    <p>Currently working on learning Data Science and Machine Learning concepts and projects</p>
+                    <h5>Data Science Aspirant</h5>
+                    <p>Currently working on learning Data Science and Machine Learning concepts and contributing to relate projects</p>
                 </span>
                 
                 <span className={classes['Mc-card']}>
                     <i className="fas fa-music fa-3x"></i>
                     <h5>Music Lover</h5>
                     <p>I'm very much passionate about listening to music and singing.Especially like the solo genre</p>
+                </span>
+
+                <span className={classes['Mc-card']}>
+                <i class="fas fa-bolt fa-3x" aria-hidden="true"></i>
+                    <h5>A Superhero Fan</h5>
+                    <p>Superhero genre is my favorite thing of time pass. I use my free time by watching movies, series based on superheroes</p>
                 </span>
             </div>
             <div className={classes['about-bottom']}>
